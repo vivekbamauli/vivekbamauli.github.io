@@ -3,78 +3,103 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Vivek Kumar - Portfolio</title>
+    <title>Vivek Kumar - Data Engineer Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <img src="assets/profile.jpg" alt="Profile Picture" class="profile-pic" />
-        <h1>Vivek Kumar</h1>
-        <p>Python, Java(Beginner), SQL</p>
+    <nav>
+    <div class="logo">VIVEK</div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#dsa">DSA</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="vivek kumar.pdf" download="Vivek_Kumar_Resume.pdf" class="btn">Download CV</a>
+</nav>
+
+    <header id="home">
+        <div class="header-content">
+            <div class="text">
+                <h2>Hello! This is Vivek</h2>
+                <h1>Data Engineer</h1>
+                <p>
+                    Experienced in building end-to-end data pipelines using Azure Data Factory, Databricks, and SQL. Skilled in transforming data into actionable insights..
+                </p>
+                <div class="buttons">
+                    <a href="#contact" class="btn">Hire Me</a>
+                    <a href="vivek kumar.pdf" download="Vivek_Kumar_Resume.pdf" class="btn btn-outline">Download CV</a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="assets/profile.jpg" alt="Vivek Kumar" />
+            </div>
+        </div>
     </header>
 
+    <section id="stats">
+        <div class="stat">
+            <h3>2</h3>
+            <p>Projects Completed</p>
+        </div> 
+    </section>
+    <section id="dsa">
+    <h2>DSA Practice</h2>
+    <p>
+        I regularly practice Data Structures and Algorithms problems Using Java to sharpen my problem-solving and coding skills. Platforms I use include LeetCode, and GeeksforGeeks.
+    </p>
+</section>
+
+
     <section id="about">
-        <h2>Professional Summary
-</h2>
-        <p>Detail-oriented and motivated Data Engineer with hands-on experience
-in building end-to-end data pipelines using Azure Data Factory,
-Databricks, and SQL. Skilled at transforming raw data into actionable
-insights with Power BI dashboards. Strong foundation in data
-warehousing, data modeling, and cloud data warehouse architectures
-with expertise in ETL processes, data governance, and big data
-technologies such as PySpark and Apache Kafka. Adept at real-time data
-processing, anomaly detection, and integrating APIs for measurable
-business impact. Recognized for strong problem-solving, teamwork, and
-communication skills in delivering scalable, data-driven solutions.</p>
+        <h2>About Me</h2>
+        <p>
+            I am a motivated Data Engineer with a strong foundation in data warehousing, ETL processes, and real-time analytics using technologies like PySpark, Kafka, and Power BI. My experience includes building scalable pipelines, integrating APIs, and designing data-driven solutions for measurable business impact.
+        </p>
     </section>
 
     <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Programming:Python, Java(Beginner), SQL</li>
-            <li>Big Data:Apache Spark, PySpark, Apache Kafka</li>
-            <li>Cloud Platforms: Azure Data Factory, Azure Data Lake (ADLS), Azure
-                Synapse, Databricks</li>
-            <li>Data Integration: REST APIs, JSON, CSV</li>
-            <li>Databases: Azure SQL, PostgreSQL</li>
-        </ul>
-    </section>
+    <h2>Skills</h2>
+    <ul>
+        <li>Python, SQL, Java (Beginner)</li>
+        <li>Data Structures & Algorithms (DSA)</li>
+        <li>Apache Spark, PySpark, Apache Kafka</li>
+        <li>Azure Data Factory, Databricks, ADLS, Synapse</li>
+        <li>Azure SQL, PostgreSQL</li>
+        <li>REST APIs, JSON, CSV</li>
+    </ul>
+</section>
+
 
     <section id="projects">
         <h2>Projects</h2>
         <div class="project">
-            <h3>Real-Time Weather Data Pipeline</h3>
-            <p>Extracted and processed weather data using Python and Airflow, visualized using Power BI.</p>
-            <a href="https://github.com/vivekkumar/weather-pipeline" target="_blank">View Code</a>
+            <h3>Azure Data Pipeline for Sales Analytics</h3>
+            <p>Built an ETL pipeline using ADF and Databricks, transforming data into insights with Azure SQL and Power BI dashboards.</p>
         </div>
         <div class="project">
-            <h3>Energy Monitoring System</h3>
-            <p>Built an energy consumption tracker using Azure tools and Power BI for analysis.</p>
-            <a href="https://github.com/vivekkumar/energy-monitoring" target="_blank">View Code</a>
+            <h3>Real-Time Bank Fraud Detection System</h3>
+            <p>Implemented Kafka and PySpark pipeline to detect suspicious transactions and send alerts through Twilio SMS API.</p>
         </div>
     </section>
 
-    <section id="resume">
-        <h2>Resume</h2>
-        <a href="vivek kumar.pdf" download="Vivek_Kumar_Resume.pdf" class="btn">Download Resume</a>
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Coming soon!</p>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: <a href="viveekkumar13669@gmail.com" target="_blank">Email</a></p>
-        <p>M.no- 9719590617</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/vivek-kumar-5494892ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Vivek Kumar</a></p>
-        <p>GitHub: <a href="https://github.com/vivekbamauli" target="_blank">Vivek Bamauli</a></p>
+        <p>Email: <a href="mailto:vivekkumar13669@gmail.com">Email</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/vivek-kumar-5494892ab" target="_blank">Lindedin</a></p>
+        <p>Phone: +91 9719590617</p>
+        <p>Address: Bamauli, Luheta, Hathras, Uttar Pradesh (204101)</p>
     </section>
+
 </body>
 </html>
-
-
-
-
-
-
-
-
-
